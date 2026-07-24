@@ -1,5 +1,5 @@
-subscription_id          = "00000000-0000-0000-0000-000000000000"
-resource_group_name      = "rg-reporte-prod-01"
+subscription_id          = "467a4c0a-e34f-4943-8a1a-f4fc3f6d6998"
+resource_group_name      = "rg-reporte-prod-brazilsouth-01"
 databricks_workspace_name = "dbr-db-reporte-dest01"
 
 # Debe coincidir con la región del Resource Group.
@@ -12,7 +12,7 @@ managed_resource_group_name = "rg-dbr-db-reporte-dest01-managed"
 public_network_access_enabled = true
 
 tags = {
-  Environment = "prod"
+  Environment = "Production"
   Workload    = "reporte"
-  Migration   = "subscription"
+  Migration   = "Subscription"
 }
