@@ -1,4 +1,4 @@
-subscription_id          = "467a4c0a-e34f-4943-8a1a-f4fc3f6d6998"
+subscription_id          = "abfc4876-4cfd-4f7a-8bbe-fec4694d3228"
 resource_group_name      = "rg-reporte-prod-brazilsouth-01"
 databricks_workspace_name = "dbr-db-reporte-dest01"
 
