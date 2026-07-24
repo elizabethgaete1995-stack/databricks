@@ -1,0 +1,12 @@
+# Renombra este archivo a backend.tf y completa los datos si utilizarás
+# un backend remoto independiente para el estado de Databricks.
+#
+# terraform {
+#   backend "azurerm" {
+#     resource_group_name  = "rg-terraform-state"
+#     storage_account_name = "sttfstateprod001"
+#     container_name       = "tfstate"
+#     key                  = "databricks/prod.tfstate"
+#     use_azuread_auth     = true
+#   }
+# }

@@ -1,0 +1,18 @@
+subscription_id          = "00000000-0000-0000-0000-000000000000"
+resource_group_name      = "rg-reporte-prod-01"
+databricks_workspace_name = "dbr-db-reporte-dest01"
+
+# Debe coincidir con la región del Resource Group.
+location = "brazilsouth"
+
+# Opcional. El Resource Group indicado no debe existir previamente.
+managed_resource_group_name = "rg-dbr-db-reporte-dest01-managed"
+
+# Mantener true si todavía no se implementan Private Link y Private Endpoints.
+public_network_access_enabled = true
+
+tags = {
+  Environment = "prod"
+  Workload    = "reporte"
+  Migration   = "subscription"
+}
